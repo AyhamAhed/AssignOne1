@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PalestineHistoryHub is a dedicated app designed to provide students with a comprehensive understanding of the history of Palestine. Delving into the rich tapestry of Palestinian history, culture, and struggle, PalestineChronicle offers an in-depth exploration of key events, figures, and movements that have shaped the region over millennia. From ancient civilizations to modern conflicts, this app serves as a valuable educational tool for students seeking to deepen their knowledge of Palestinian history."
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/history_image"
+                android:layout_width="match_parent"
+                android:layout_height="567dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/history_palestine" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
